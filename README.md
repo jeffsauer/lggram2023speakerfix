@@ -33,3 +33,10 @@ https://github.com/ryanprescott/realtek-verb-tools/wiki/How-to-sniff-verbs-from-
 14. until kernel patch makes it's way upstream, simple run realtek apply verb script upon login to initialize speakers.
 
 NOTE: I've found that with a warm reboot, the internal speakers remains initialized. only during a hard cold restart does it require initialization with the captured verbs.
+
+## OTHER LINKS
+https://wiki.archlinux.org/title/LG_Gram_16_2-in-1_2023
+https://github.com/thesofproject/linux/issues/4363
+https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1851518
+https://superuser.com/questions/1627065/ubuntu-20-04-lts-no-sound-on-lg-gram-2021-a-lot-of-troubleshooting-attempted
+https://github.com/Teetoow/SamsungGalaxyBook12/tree/main/ALC298
