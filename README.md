@@ -40,3 +40,22 @@ https://github.com/thesofproject/linux/issues/4363
 https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1851518
 https://superuser.com/questions/1627065/ubuntu-20-04-lts-no-sound-on-lg-gram-2021-a-lot-of-troubleshooting-attempted
 https://github.com/Teetoow/SamsungGalaxyBook12/tree/main/ALC298
+
+## Miscellaneous info
+```
+lspci -kvv
+
+00:1f.3 Multimedia audio controller: Intel Corporation Raptor Lake-P/U/H cAVS (rev 01)
+	DeviceName: Onboard - Sound
+	Subsystem: LG Electronics, Inc. Device 0496
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR- FastB2B- DisINTx+
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 32, Cache Line Size: 64 bytes
+	Interrupt: pin A routed to IRQ 203
+	IOMMU group: 14
+	Region 0: Memory at 603d190000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 603d000000 (64-bit, non-prefetchable) [size=1M]
+	Capabilities: <access denied>
+	Kernel driver in use: sof-audio-pci-intel-tgl
+	Kernel modules: snd_hda_intel, snd_sof_pci_intel_tgl
+```
