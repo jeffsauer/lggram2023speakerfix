@@ -35,6 +35,7 @@ https://github.com/ryanprescott/realtek-verb-tools/wiki/How-to-sniff-verbs-from-
 NOTE: I've found that with a warm reboot, the internal speakers remains initialized. only during a hard cold restart does it require initialization with the captured verbs.
 
 ## OTHER LINKS
+https://bugzilla.kernel.org/show_bug.cgi?id=212041
 https://wiki.archlinux.org/title/LG_Gram_16_2-in-1_2023
 https://github.com/thesofproject/linux/issues/4363
 https://bugs.launchpad.net/ubuntu/+source/linux/+bug/1851518
